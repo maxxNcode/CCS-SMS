@@ -1,0 +1,118 @@
+/* CSS HEX
+--white: #FEFEFEff;
+--velvet-orchid: #572C6Dff;
+--vintage-grape: #684069ff;
+--golden-bronze: #BF940Bff;
+--white-2: #FFFFFFff; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.small-space{
+    height: 20px;
+}
+body{
+    padding: 20px 20px 0 20px;
+}
+nav{
+    height: 60px;
+    background-color: #572C6Dff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 5px;
+}
+.logo p{
+    font-family: tahoma;
+    font-size: 22px;
+    font-weight: 500;
+    color: #FEFEFEff;
+}
+
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    color: #FEFEFEff;
+    font-family: tahoma;
+    text-decoration: none;
+}
+
+.main{
+    margin-top: 20px;
+    height: 550px;
+    width: 100%;
+    background-color:  rgb(210, 189, 211);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-holder{
+
+    height: auto;
+    width: 400px;
+    background-color: #FEFEFEff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 20px;
+}
+.left-holder input, .right-holder input{
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.281);
+}
+.left-holder label, .right-holder label{
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+.right-holder{
+    height: auto    ;
+    width: 400px;
+    background-color: #FEFEFEff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.regis-title{
+    height: 60px;
+    display: grid;
+    place-content: center;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submit-holder{
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.submit-holder button{
+    font-family: tahoma;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none
+}
+
