@@ -113,8 +113,15 @@ nav{
 }
 .links a{
     color: #FEFEFEff;
-    font-family: tahoma;
+    font-family: 'Outfit Regular';
     text-decoration: none;
+    transition: ease-out 140ms;
+}
+.links a:hover{
+    color: rgb(240, 208, 255);
+    text-decoration: underline;
+    margin-top: -3px;
+    transition: ease-out 140ms;
 }
 
 .main{
@@ -125,7 +132,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    box-shadow: inset 0 0 8px #572c6da4;
 }
 .create-account{
     display: flex;
@@ -183,7 +191,7 @@ nav{
 .btn-holder button{
     font-family: tahoma;
     font-size: 18px;
-    width: 184px;
+    width: 190px;
     height: 42px;
     border-radius: 21px;
     border: none
@@ -192,7 +200,7 @@ nav{
     display: flex;
     width: 100%;
     justify-content: left;
-    gap: 30px;
+    gap: 20px;
 }
 .create-account{
     display: flex;
@@ -232,16 +240,18 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 20px 30px 20px 30px;
+    padding: 30px 34px 20px 34px;
+    justify-content: center;
 }
 .top-card-hodler h1{
     font-family: 'Outfit Black';
     color: #e5dce6;
-    font-size: 80px;
+    font-size: 84px;
+    line-height: 96px;
 }
 .top-card-hodler p{
     color: #e5dce6;
-    font-family: tahoma;
+    font-family: 'Outfit Light';
     font-size: 22px;
     line-height: 34px;
 }
@@ -263,7 +273,7 @@ nav{
     z-index: 1;
 }
 .center button{
-    height: 40px;
+    height: 44px;
     width: 160px;
     border-radius: 20px;
     font-size: 16px;
