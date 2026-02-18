@@ -1,5 +1,10 @@
 function goToRegister() {
-    window.location.href = 'pages/registration.html';
+    location.href = 'pages/registration.html';
+}
+
+
+function goToHome() {
+    location.href = '../index.html';
 }
 
 
