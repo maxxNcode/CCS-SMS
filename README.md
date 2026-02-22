@@ -1,2 +1,5 @@
-# This is a Basic HTML Website
-https://github.com/maxxNcode/project01
+# CCS - SIT-IN MONITORING SYSTEM
+
+This is a simple sit-in monitoring system for CCS.
+
+
