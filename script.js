@@ -8,3 +8,7 @@ function goToHome() {
 }
 
 
+// display none for the main content
+document.querySelector('.main').style.display = 'show';
+
+
