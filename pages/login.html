@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Login</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <img src="../assets/ccslogo.png" alt="" height="50">
+            <p>CCS - Sitin Monitoring System</p>
+        </div>
+
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a href="">Community</a>
+            <a href="">About</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Register</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="create-account animate__animated animate__fadeInUp">
+            <div class="regis-title">
+                Welcome Back
+            </div>
+            <div class="form login-form">
+                <div class="login-holder">
+                    <input type="text" placeholder="Enter your ID Number">
+                    <label for="">ID Number</label>
+                    <div class="small-space"></div>
+                    <input type="password" placeholder="Enter your password">
+                    <label for="">Password</label>
+                    <div class="small-space"></div>
+                    <a href="" class="forgot-link">Forgot Password?</a>
+                </div>
+            </div>
+            
+            <div class="actions login-actions">
+                <div class="btn-holder">
+                    <button class="cancel-btn"><a href="../index.html">Cancel</a></button>
+                </div>
+
+                <div class="btn-holder">
+                    <button class="register-btn">Login</button>
+                </div>
+            </div>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="registration.html">Register here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
 </body>
 </html>
